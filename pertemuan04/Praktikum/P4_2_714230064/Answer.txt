@@ -1,0 +1,19 @@
+1.	Untuk kesalahan pertama pada codingan “Console.WriteLine(myProduct.myType);” yang dimana kesalahan codingan tersebut terdapat pada class Product_714230064 yang dimana tipe yang di deklarasikan menggunaka protection itu bersifat privat, maka dari itu codingan ini “protected string myType = "Book";” harus di ubah menjadi public “  public string myType = "Book";”.
+2.	Untuk kesalahan pertama pada codingan “Console.WriteLine(myProduct.myType);” yang dimana kesalahan codingan tersebut terdapat pada class Product_714230064 yang dimana tipe yang di deklarasikan menggunaka protection itu bersifat privat, maka dari itu codingan ini “private string myType;” harus di ubah menjadi public “  private string myType;”.
+3.	Pada codingan yang ketiga ketika kenapa bisa muncul “DVD” karena pada codingan ini “myProduct.MyType = "DVD";” menunjukan bahwa codingan ini untuk mengatur nilai MyType dan untuk menampilkan nilai tersebut adalah dengan codingan ini “            Console.WriteLine(myProduct.myType);”.
+4.	Jelaskan mengapa tipe dan title dari buku tersebut tidak muncul! Apakah istilah dalam
+konsep OOP yang mendefinisikan fenomena seperti ini?
+Pada kode tersebut, alasan tipe (type) dan judul (title) tidak muncul adalah karena properti atau atribut yang diperlukan di kelas Book_714230064 belum diimplementasikan
+5.	Perhatikan hasil yang muncul dilayar, jelaskan mengapa saat ini tipe dan judul buku
+tampil pada output!
+Pada kode tersebut sudah di implementasikan atribut yang di perlukan dalam kelas Book_714230064 “base (type, title)”
+6.	Mengapa objek product2 tidak dibuat seperti product1 atau seperti gambar yang
+ditandai di bawah?
+Codingan yang diberikan tidak sesuai dengan gambar pada file praktikum dikarenakan pada class DVD_NPM pada bagian codingan public DVD_714230064(string title, string duration) : “base(duration,title)” kesalahannya pada bagian yang saya tanda kutip yang saya berikan, karna tidak menambahkannya menambahkannya.untuk bagian codingan 
+“{
+    	MyType = "DVD";
+    	//MyTitle = title;
+    	this.duration = duration;
+    	Console.WriteLine("Ini dari class DVD");
+}”
+Seharusnya MyTitle di hapus atau di commend Maka hasilnya akan seperti pada gambar pada file praktikum, jika pertanyaannya “Mengapa objek product2 tidak dibuat seperti product1 atau seperti gambar yang ditandai di bawah?” karena di dalam file gambar tidak menambahkan string “DVD”

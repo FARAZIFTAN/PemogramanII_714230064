@@ -1,0 +1,7 @@
+C:\Users\Gustam\source\repos\P3_1_714230064\P3_1_714230064\bin\Debug\P3_1_714230064.exe.config
+C:\Users\Gustam\source\repos\P3_1_714230064\P3_1_714230064\bin\Debug\P3_1_714230064.exe
+C:\Users\Gustam\source\repos\P3_1_714230064\P3_1_714230064\bin\Debug\P3_1_714230064.pdb
+C:\Users\Gustam\source\repos\P3_1_714230064\P3_1_714230064\obj\Debug\P3_1_714230064.csproj.AssemblyReference.cache
+C:\Users\Gustam\source\repos\P3_1_714230064\P3_1_714230064\obj\Debug\P3_1_714230064.csproj.CoreCompileInputs.cache
+C:\Users\Gustam\source\repos\P3_1_714230064\P3_1_714230064\obj\Debug\P3_1_714230064.exe
+C:\Users\Gustam\source\repos\P3_1_714230064\P3_1_714230064\obj\Debug\P3_1_714230064.pdb
