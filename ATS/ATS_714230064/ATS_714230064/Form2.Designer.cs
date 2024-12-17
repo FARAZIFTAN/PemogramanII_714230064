@@ -28,472 +28,500 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            comboBox1 = new ComboBox();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            button1 = new Button();
-            groupBox1 = new GroupBox();
-            radioButton4 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton5 = new RadioButton();
-            groupBox2 = new GroupBox();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox4 = new CheckBox();
-            checkBox5 = new CheckBox();
-            checkBox6 = new CheckBox();
-            checkBox7 = new CheckBox();
-            checkBox8 = new CheckBox();
-            checkBox9 = new CheckBox();
-            checkBox10 = new CheckBox();
-            checkBox11 = new CheckBox();
-            checkBox12 = new CheckBox();
-            button2 = new Button();
-            button3 = new Button();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.NPMtextBox1 = new System.Windows.Forms.TextBox();
+            this.NamatextBox2 = new System.Windows.Forms.TextBox();
+            this.AlamattextBox3 = new System.Windows.Forms.TextBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.TahuntextBox4 = new System.Windows.Forms.TextBox();
+            this.KelastextBox5 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.PilihMataKuliah = new System.Windows.Forms.Button();
+            this.groupBox1Semester = new System.Windows.Forms.GroupBox();
+            this.Semester3RadioButton = new System.Windows.Forms.RadioButton();
+            this.Semester2RadioButton = new System.Windows.Forms.RadioButton();
+            this.Semester1RadioButton = new System.Windows.Forms.RadioButton();
+            this.groupBox2MataKuliah = new System.Windows.Forms.GroupBox();
+            this.PengantarLogistikCheckBox = new System.Windows.Forms.CheckBox();
+            this.PendidikanPancasilaCheckBox = new System.Windows.Forms.CheckBox();
+            this.AlgoritmaStrukturData2CheckBox = new System.Windows.Forms.CheckBox();
+            this.AlgoritmaStrukturData1CheckBox = new System.Windows.Forms.CheckBox();
+            this.LiterasiDataCheckBox = new System.Windows.Forms.CheckBox();
+            this.BasisDataIICheckBox = new System.Windows.Forms.CheckBox();
+            this.BasisDataICheckBox = new System.Windows.Forms.CheckBox();
+            this.LiterasiTeknologiCheckBox = new System.Windows.Forms.CheckBox();
+            this.PemrogramanIICheckBox = new System.Windows.Forms.CheckBox();
+            this.PemrogramanICheckBox = new System.Windows.Forms.CheckBox();
+            this.AljabarLinierCheckBox = new System.Windows.Forms.CheckBox();
+            this.MatematikaDiskritCheckBox = new System.Windows.Forms.CheckBox();
+            this.SimpanButton = new System.Windows.Forms.Button();
+            this.BatalButton = new System.Windows.Forms.Button();
+            this.groupBox1Semester.SuspendLayout();
+            this.groupBox2MataKuliah.SuspendLayout();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(373, 20);
-            label1.Name = "label1";
-            label1.Size = new Size(361, 28);
-            label1.TabIndex = 0;
-            label1.Text = "PILIHAN MATA KULIAH MAHASISWA";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(258, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(443, 29);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "PILIHAN MATA KULIAH MAHASISWA";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(75, 148);
-            label2.Name = "label2";
-            label2.Size = new Size(41, 20);
-            label2.TabIndex = 1;
-            label2.Text = "NPM";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(24, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 20);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "NPM";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(75, 188);
-            label3.Name = "label3";
-            label3.Size = new Size(49, 20);
-            label3.TabIndex = 2;
-            label3.Text = "Nama";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(24, 109);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Nama";
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(75, 225);
-            label4.Name = "label4";
-            label4.Size = new Size(98, 20);
-            label4.TabIndex = 3;
-            label4.Text = "Jenis Kelamin";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(24, 150);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(106, 20);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Jenis Kelamin";
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(75, 267);
-            label5.Name = "label5";
-            label5.Size = new Size(57, 20);
-            label5.TabIndex = 4;
-            label5.Text = "Alamat";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(24, 185);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(59, 20);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Alamat";
             // 
             // label6
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(567, 148);
-            label6.Name = "label6";
-            label6.Size = new Size(104, 20);
-            label6.TabIndex = 5;
-            label6.Text = "Program Studi";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(545, 150);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 20);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Kelas";
             // 
             // label7
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(567, 188);
-            label7.Name = "label7";
-            label7.Size = new Size(117, 20);
-            label7.TabIndex = 6;
-            label7.Text = "Tahun Akademik";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(545, 74);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(110, 20);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Program Studi";
             // 
             // label8
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(567, 225);
-            label8.Name = "label8";
-            label8.Size = new Size(44, 20);
-            label8.TabIndex = 7;
-            label8.Text = "Kelas";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(545, 112);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(128, 20);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Tahun Akademik";
             // 
-            // textBox1
+            // NPMtextBox1
             // 
-            textBox1.Location = new Point(185, 141);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(268, 27);
-            textBox1.TabIndex = 8;
+            this.NPMtextBox1.Location = new System.Drawing.Point(132, 68);
+            this.NPMtextBox1.Name = "NPMtextBox1";
+            this.NPMtextBox1.Size = new System.Drawing.Size(240, 26);
+            this.NPMtextBox1.TabIndex = 8;
+            this.NPMtextBox1.TextChanged += new System.EventHandler(this.NPMtextBox1_TextChanged);
             // 
-            // textBox2
+            // NamatextBox2
             // 
-            textBox2.Location = new Point(185, 185);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(268, 27);
-            textBox2.TabIndex = 9;
+            this.NamatextBox2.Location = new System.Drawing.Point(132, 112);
+            this.NamatextBox2.Name = "NamatextBox2";
+            this.NamatextBox2.Size = new System.Drawing.Size(240, 26);
+            this.NamatextBox2.TabIndex = 9;
+            this.NamatextBox2.TextChanged += new System.EventHandler(this.NamatextBox2_TextChanged);
             // 
-            // textBox3
+            // AlamattextBox3
             // 
-            textBox3.Location = new Point(185, 260);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(268, 74);
-            textBox3.TabIndex = 10;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(717, 185);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(268, 27);
-            textBox4.TabIndex = 11;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(717, 222);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(268, 27);
-            textBox5.TabIndex = 12;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(717, 142);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(268, 28);
-            comboBox1.TabIndex = 13;
+            this.AlamattextBox3.Location = new System.Drawing.Point(132, 175);
+            this.AlamattextBox3.Multiline = true;
+            this.AlamattextBox3.Name = "AlamattextBox3";
+            this.AlamattextBox3.Size = new System.Drawing.Size(240, 77);
+            this.AlamattextBox3.TabIndex = 10;
+            this.AlamattextBox3.TextChanged += new System.EventHandler(this.AlamattextBox3_TextChanged);
             // 
             // radioButton1
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(185, 225);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(93, 24);
-            radioButton1.TabIndex = 14;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Laki - laki";
-            radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(132, 145);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(99, 24);
+            this.radioButton1.TabIndex = 11;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Laki - laki";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(309, 225);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(104, 24);
-            radioButton2.TabIndex = 15;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Perempuan";
-            radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(237, 145);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(116, 24);
+            this.radioButton2.TabIndex = 12;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Perempuan";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // button1
+            // TahuntextBox4
             // 
-            button1.Location = new Point(818, 263);
-            button1.Name = "button1";
-            button1.Size = new Size(167, 49);
-            button1.TabIndex = 16;
-            button1.Text = "Pilih Mata Kuliah";
-            button1.UseVisualStyleBackColor = true;
+            this.TahuntextBox4.Location = new System.Drawing.Point(690, 109);
+            this.TahuntextBox4.Name = "TahuntextBox4";
+            this.TahuntextBox4.Size = new System.Drawing.Size(240, 26);
+            this.TahuntextBox4.TabIndex = 13;
+            this.TahuntextBox4.TextChanged += new System.EventHandler(this.TahuntextBox4_TextChanged);
             // 
-            // groupBox1
+            // KelastextBox5
             // 
-            groupBox1.Controls.Add(radioButton5);
-            groupBox1.Controls.Add(radioButton4);
-            groupBox1.Controls.Add(radioButton3);
-            groupBox1.Location = new Point(75, 395);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(288, 206);
-            groupBox1.TabIndex = 17;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Semester";
+            this.KelastextBox5.Location = new System.Drawing.Point(690, 147);
+            this.KelastextBox5.Name = "KelastextBox5";
+            this.KelastextBox5.Size = new System.Drawing.Size(240, 26);
+            this.KelastextBox5.TabIndex = 14;
+            this.KelastextBox5.TextChanged += new System.EventHandler(this.KelastextBox5_TextChanged);
             // 
-            // radioButton4
+            // comboBox1
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(11, 80);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(103, 24);
-            radioButton4.TabIndex = 1;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "Semester 2";
-            radioButton4.UseVisualStyleBackColor = true;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "D4 Teknik Informatika",
+            "D3 Teknik Informatika"});
+            this.comboBox1.Location = new System.Drawing.Point(690, 68);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(240, 28);
+            this.comboBox1.TabIndex = 15;
             // 
-            // radioButton3
+            // PilihMataKuliah
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(10, 36);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(103, 24);
-            radioButton3.TabIndex = 0;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Semester 1";
-            radioButton3.UseVisualStyleBackColor = true;
+            this.PilihMataKuliah.Location = new System.Drawing.Point(754, 203);
+            this.PilihMataKuliah.Name = "PilihMataKuliah";
+            this.PilihMataKuliah.Size = new System.Drawing.Size(176, 56);
+            this.PilihMataKuliah.TabIndex = 16;
+            this.PilihMataKuliah.Text = "Pilih Mata Kuliah";
+            this.PilihMataKuliah.UseVisualStyleBackColor = true;
+            this.PilihMataKuliah.Click += new System.EventHandler(this.PilihMataKuliah_Click);
             // 
-            // radioButton5
+            // groupBox1Semester
             // 
-            radioButton5.AutoSize = true;
-            radioButton5.Location = new Point(11, 122);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(103, 24);
-            radioButton5.TabIndex = 2;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "Semester 3";
-            radioButton5.UseVisualStyleBackColor = true;
+            this.groupBox1Semester.Controls.Add(this.Semester3RadioButton);
+            this.groupBox1Semester.Controls.Add(this.Semester2RadioButton);
+            this.groupBox1Semester.Controls.Add(this.Semester1RadioButton);
+            this.groupBox1Semester.Location = new System.Drawing.Point(28, 352);
+            this.groupBox1Semester.Name = "groupBox1Semester";
+            this.groupBox1Semester.Size = new System.Drawing.Size(224, 194);
+            this.groupBox1Semester.TabIndex = 17;
+            this.groupBox1Semester.TabStop = false;
+            this.groupBox1Semester.Text = "Semester";
             // 
-            // groupBox2
+            // Semester3RadioButton
             // 
-            groupBox2.Controls.Add(checkBox12);
-            groupBox2.Controls.Add(checkBox11);
-            groupBox2.Controls.Add(checkBox10);
-            groupBox2.Controls.Add(checkBox9);
-            groupBox2.Controls.Add(checkBox8);
-            groupBox2.Controls.Add(checkBox7);
-            groupBox2.Controls.Add(checkBox6);
-            groupBox2.Controls.Add(checkBox5);
-            groupBox2.Controls.Add(checkBox4);
-            groupBox2.Controls.Add(checkBox3);
-            groupBox2.Controls.Add(checkBox2);
-            groupBox2.Controls.Add(checkBox1);
-            groupBox2.Location = new Point(412, 395);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(648, 206);
-            groupBox2.TabIndex = 18;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Mata Kuliah Pilihan";
+            this.Semester3RadioButton.AutoSize = true;
+            this.Semester3RadioButton.Location = new System.Drawing.Point(9, 112);
+            this.Semester3RadioButton.Name = "Semester3RadioButton";
+            this.Semester3RadioButton.Size = new System.Drawing.Size(116, 24);
+            this.Semester3RadioButton.TabIndex = 2;
+            this.Semester3RadioButton.TabStop = true;
+            this.Semester3RadioButton.Text = "Semester 3";
+            this.Semester3RadioButton.UseVisualStyleBackColor = true;
+            this.Semester3RadioButton.CheckedChanged += new System.EventHandler(this.Semester3RadioButton_CheckedChanged);
             // 
-            // checkBox1
+            // Semester2RadioButton
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(18, 36);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(156, 24);
-            checkBox1.TabIndex = 0;
-            checkBox1.Text = "Matematika Diskrit";
-            checkBox1.UseVisualStyleBackColor = true;
+            this.Semester2RadioButton.AutoSize = true;
+            this.Semester2RadioButton.Location = new System.Drawing.Point(9, 70);
+            this.Semester2RadioButton.Name = "Semester2RadioButton";
+            this.Semester2RadioButton.Size = new System.Drawing.Size(116, 24);
+            this.Semester2RadioButton.TabIndex = 1;
+            this.Semester2RadioButton.TabStop = true;
+            this.Semester2RadioButton.Text = "Semester 2";
+            this.Semester2RadioButton.UseVisualStyleBackColor = true;
+            this.Semester2RadioButton.CheckedChanged += new System.EventHandler(this.Semester2RadioButton_CheckedChanged);
             // 
-            // checkBox2
+            // Semester1RadioButton
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(18, 80);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(119, 24);
-            checkBox2.TabIndex = 1;
-            checkBox2.Text = "Aljabar Linier";
-            checkBox2.UseVisualStyleBackColor = true;
+            this.Semester1RadioButton.AutoSize = true;
+            this.Semester1RadioButton.Location = new System.Drawing.Point(9, 26);
+            this.Semester1RadioButton.Name = "Semester1RadioButton";
+            this.Semester1RadioButton.Size = new System.Drawing.Size(116, 24);
+            this.Semester1RadioButton.TabIndex = 0;
+            this.Semester1RadioButton.TabStop = true;
+            this.Semester1RadioButton.Text = "Semester 1";
+            this.Semester1RadioButton.UseVisualStyleBackColor = true;
+            this.Semester1RadioButton.CheckedChanged += new System.EventHandler(this.Semester1RadioButton_CheckedChanged);
             // 
-            // checkBox3
+            // groupBox2MataKuliah
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(18, 122);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(132, 24);
-            checkBox3.TabIndex = 2;
-            checkBox3.Text = "Pemrograman I";
-            checkBox3.UseVisualStyleBackColor = true;
+            this.groupBox2MataKuliah.Controls.Add(this.PengantarLogistikCheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.PendidikanPancasilaCheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.AlgoritmaStrukturData2CheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.AlgoritmaStrukturData1CheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.LiterasiDataCheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.BasisDataIICheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.BasisDataICheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.LiterasiTeknologiCheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.PemrogramanIICheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.PemrogramanICheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.AljabarLinierCheckBox);
+            this.groupBox2MataKuliah.Controls.Add(this.MatematikaDiskritCheckBox);
+            this.groupBox2MataKuliah.Location = new System.Drawing.Point(283, 352);
+            this.groupBox2MataKuliah.Name = "groupBox2MataKuliah";
+            this.groupBox2MataKuliah.Size = new System.Drawing.Size(677, 194);
+            this.groupBox2MataKuliah.TabIndex = 18;
+            this.groupBox2MataKuliah.TabStop = false;
+            this.groupBox2MataKuliah.Text = "Mata Kuliah Pilihan";
             // 
-            // checkBox4
+            // PengantarLogistikCheckBox
             // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(18, 165);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(136, 24);
-            checkBox4.TabIndex = 3;
-            checkBox4.Text = "Pemrograman II";
-            checkBox4.UseVisualStyleBackColor = true;
+            this.PengantarLogistikCheckBox.AutoSize = true;
+            this.PengantarLogistikCheckBox.Enabled = false;
+            this.PengantarLogistikCheckBox.Location = new System.Drawing.Point(407, 153);
+            this.PengantarLogistikCheckBox.Name = "PengantarLogistikCheckBox";
+            this.PengantarLogistikCheckBox.Size = new System.Drawing.Size(237, 24);
+            this.PengantarLogistikCheckBox.TabIndex = 11;
+            this.PengantarLogistikCheckBox.Text = "Pengantar Logistik dan SCM";
+            this.PengantarLogistikCheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // PendidikanPancasilaCheckBox
             // 
-            checkBox5.AutoSize = true;
-            checkBox5.Location = new Point(194, 36);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(147, 24);
-            checkBox5.TabIndex = 4;
-            checkBox5.Text = "Literasi Teknologi";
-            checkBox5.UseVisualStyleBackColor = true;
+            this.PendidikanPancasilaCheckBox.AutoSize = true;
+            this.PendidikanPancasilaCheckBox.Enabled = false;
+            this.PendidikanPancasilaCheckBox.Location = new System.Drawing.Point(407, 113);
+            this.PendidikanPancasilaCheckBox.Name = "PendidikanPancasilaCheckBox";
+            this.PendidikanPancasilaCheckBox.Size = new System.Drawing.Size(185, 24);
+            this.PendidikanPancasilaCheckBox.TabIndex = 10;
+            this.PendidikanPancasilaCheckBox.Text = "Pendidikan Pancasila";
+            this.PendidikanPancasilaCheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // AlgoritmaStrukturData2CheckBox
             // 
-            checkBox6.AutoSize = true;
-            checkBox6.Location = new Point(194, 80);
-            checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(108, 24);
-            checkBox6.TabIndex = 5;
-            checkBox6.Text = "Basis Data I";
-            checkBox6.UseVisualStyleBackColor = true;
+            this.AlgoritmaStrukturData2CheckBox.AutoSize = true;
+            this.AlgoritmaStrukturData2CheckBox.Enabled = false;
+            this.AlgoritmaStrukturData2CheckBox.Location = new System.Drawing.Point(407, 71);
+            this.AlgoritmaStrukturData2CheckBox.Name = "AlgoritmaStrukturData2CheckBox";
+            this.AlgoritmaStrukturData2CheckBox.Size = new System.Drawing.Size(246, 24);
+            this.AlgoritmaStrukturData2CheckBox.TabIndex = 9;
+            this.AlgoritmaStrukturData2CheckBox.Text = "Algoritma dan Struktur Data 2";
+            this.AlgoritmaStrukturData2CheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // AlgoritmaStrukturData1CheckBox
             // 
-            checkBox7.AutoSize = true;
-            checkBox7.Location = new Point(194, 122);
-            checkBox7.Name = "checkBox7";
-            checkBox7.Size = new Size(112, 24);
-            checkBox7.TabIndex = 6;
-            checkBox7.Text = "Basis Data II";
-            checkBox7.UseVisualStyleBackColor = true;
+            this.AlgoritmaStrukturData1CheckBox.AutoSize = true;
+            this.AlgoritmaStrukturData1CheckBox.Enabled = false;
+            this.AlgoritmaStrukturData1CheckBox.Location = new System.Drawing.Point(407, 26);
+            this.AlgoritmaStrukturData1CheckBox.Name = "AlgoritmaStrukturData1CheckBox";
+            this.AlgoritmaStrukturData1CheckBox.Size = new System.Drawing.Size(246, 24);
+            this.AlgoritmaStrukturData1CheckBox.TabIndex = 8;
+            this.AlgoritmaStrukturData1CheckBox.Text = "Algoritma dan Struktur Data 1";
+            this.AlgoritmaStrukturData1CheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // LiterasiDataCheckBox
             // 
-            checkBox8.AutoSize = true;
-            checkBox8.Location = new Point(194, 165);
-            checkBox8.Name = "checkBox8";
-            checkBox8.Size = new Size(114, 24);
-            checkBox8.TabIndex = 7;
-            checkBox8.Text = "Literasi Data";
-            checkBox8.UseVisualStyleBackColor = true;
+            this.LiterasiDataCheckBox.AutoSize = true;
+            this.LiterasiDataCheckBox.Enabled = false;
+            this.LiterasiDataCheckBox.Location = new System.Drawing.Point(221, 153);
+            this.LiterasiDataCheckBox.Name = "LiterasiDataCheckBox";
+            this.LiterasiDataCheckBox.Size = new System.Drawing.Size(125, 24);
+            this.LiterasiDataCheckBox.TabIndex = 7;
+            this.LiterasiDataCheckBox.Text = "Literasi Data";
+            this.LiterasiDataCheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // BasisDataIICheckBox
             // 
-            checkBox9.AutoSize = true;
-            checkBox9.Location = new Point(356, 37);
-            checkBox9.Name = "checkBox9";
-            checkBox9.Size = new Size(230, 24);
-            checkBox9.TabIndex = 8;
-            checkBox9.Text = "Algoritma dan Struktur Data 1";
-            checkBox9.UseVisualStyleBackColor = true;
+            this.BasisDataIICheckBox.AutoSize = true;
+            this.BasisDataIICheckBox.Enabled = false;
+            this.BasisDataIICheckBox.Location = new System.Drawing.Point(221, 113);
+            this.BasisDataIICheckBox.Name = "BasisDataIICheckBox";
+            this.BasisDataIICheckBox.Size = new System.Drawing.Size(127, 24);
+            this.BasisDataIICheckBox.TabIndex = 6;
+            this.BasisDataIICheckBox.Text = "Basis Data II";
+            this.BasisDataIICheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // BasisDataICheckBox
             // 
-            checkBox10.AutoSize = true;
-            checkBox10.Location = new Point(356, 81);
-            checkBox10.Name = "checkBox10";
-            checkBox10.Size = new Size(230, 24);
-            checkBox10.TabIndex = 9;
-            checkBox10.Text = "Algoritma dan Struktur Data 2";
-            checkBox10.UseVisualStyleBackColor = true;
+            this.BasisDataICheckBox.AutoSize = true;
+            this.BasisDataICheckBox.Enabled = false;
+            this.BasisDataICheckBox.Location = new System.Drawing.Point(221, 71);
+            this.BasisDataICheckBox.Name = "BasisDataICheckBox";
+            this.BasisDataICheckBox.Size = new System.Drawing.Size(122, 24);
+            this.BasisDataICheckBox.TabIndex = 5;
+            this.BasisDataICheckBox.Text = "Basis Data I";
+            this.BasisDataICheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox11
+            // LiterasiTeknologiCheckBox
             // 
-            checkBox11.AutoSize = true;
-            checkBox11.Location = new Point(356, 122);
-            checkBox11.Name = "checkBox11";
-            checkBox11.Size = new Size(167, 24);
-            checkBox11.TabIndex = 10;
-            checkBox11.Text = "Pendidikan Pancasila";
-            checkBox11.UseVisualStyleBackColor = true;
-            checkBox11.CheckedChanged += checkBox11_CheckedChanged;
+            this.LiterasiTeknologiCheckBox.AutoSize = true;
+            this.LiterasiTeknologiCheckBox.Enabled = false;
+            this.LiterasiTeknologiCheckBox.Location = new System.Drawing.Point(221, 29);
+            this.LiterasiTeknologiCheckBox.Name = "LiterasiTeknologiCheckBox";
+            this.LiterasiTeknologiCheckBox.Size = new System.Drawing.Size(158, 24);
+            this.LiterasiTeknologiCheckBox.TabIndex = 4;
+            this.LiterasiTeknologiCheckBox.Text = "Literasi Teknologi";
+            this.LiterasiTeknologiCheckBox.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // PemrogramanIICheckBox
             // 
-            checkBox12.AutoSize = true;
-            checkBox12.Location = new Point(356, 165);
-            checkBox12.Name = "checkBox12";
-            checkBox12.Size = new Size(214, 24);
-            checkBox12.TabIndex = 11;
-            checkBox12.Text = "Perangkat Logistik dan SCM";
-            checkBox12.UseVisualStyleBackColor = true;
+            this.PemrogramanIICheckBox.AutoSize = true;
+            this.PemrogramanIICheckBox.Enabled = false;
+            this.PemrogramanIICheckBox.Location = new System.Drawing.Point(30, 153);
+            this.PemrogramanIICheckBox.Name = "PemrogramanIICheckBox";
+            this.PemrogramanIICheckBox.Size = new System.Drawing.Size(149, 24);
+            this.PemrogramanIICheckBox.TabIndex = 3;
+            this.PemrogramanIICheckBox.Text = "Pemrograman II";
+            this.PemrogramanIICheckBox.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // PemrogramanICheckBox
             // 
-            button2.Location = new Point(383, 627);
-            button2.Name = "button2";
-            button2.Size = new Size(154, 41);
-            button2.TabIndex = 19;
-            button2.Text = "Simpan";
-            button2.UseVisualStyleBackColor = true;
+            this.PemrogramanICheckBox.AutoSize = true;
+            this.PemrogramanICheckBox.Enabled = false;
+            this.PemrogramanICheckBox.Location = new System.Drawing.Point(30, 112);
+            this.PemrogramanICheckBox.Name = "PemrogramanICheckBox";
+            this.PemrogramanICheckBox.Size = new System.Drawing.Size(144, 24);
+            this.PemrogramanICheckBox.TabIndex = 2;
+            this.PemrogramanICheckBox.Text = "Pemrograman I";
+            this.PemrogramanICheckBox.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // AljabarLinierCheckBox
             // 
-            button3.Location = new Point(580, 627);
-            button3.Name = "button3";
-            button3.Size = new Size(154, 41);
-            button3.TabIndex = 20;
-            button3.Text = "Batal";
-            button3.UseVisualStyleBackColor = true;
+            this.AljabarLinierCheckBox.AutoSize = true;
+            this.AljabarLinierCheckBox.Enabled = false;
+            this.AljabarLinierCheckBox.Location = new System.Drawing.Point(30, 70);
+            this.AljabarLinierCheckBox.Name = "AljabarLinierCheckBox";
+            this.AljabarLinierCheckBox.Size = new System.Drawing.Size(126, 24);
+            this.AljabarLinierCheckBox.TabIndex = 1;
+            this.AljabarLinierCheckBox.Text = "Aljabar Linier";
+            this.AljabarLinierCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // MatematikaDiskritCheckBox
+            // 
+            this.MatematikaDiskritCheckBox.AutoSize = true;
+            this.MatematikaDiskritCheckBox.Enabled = false;
+            this.MatematikaDiskritCheckBox.Location = new System.Drawing.Point(30, 29);
+            this.MatematikaDiskritCheckBox.Name = "MatematikaDiskritCheckBox";
+            this.MatematikaDiskritCheckBox.Size = new System.Drawing.Size(166, 24);
+            this.MatematikaDiskritCheckBox.TabIndex = 0;
+            this.MatematikaDiskritCheckBox.Text = "Matematika Diskrit";
+            this.MatematikaDiskritCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // SimpanButton
+            // 
+            this.SimpanButton.Location = new System.Drawing.Point(366, 573);
+            this.SimpanButton.Name = "SimpanButton";
+            this.SimpanButton.Size = new System.Drawing.Size(152, 43);
+            this.SimpanButton.TabIndex = 19;
+            this.SimpanButton.Text = "Simpan";
+            this.SimpanButton.UseVisualStyleBackColor = true;
+            this.SimpanButton.Click += new System.EventHandler(this.SimpanButton_Click);
+            // 
+            // BatalButton
+            // 
+            this.BatalButton.Location = new System.Drawing.Point(592, 573);
+            this.BatalButton.Name = "BatalButton";
+            this.BatalButton.Size = new System.Drawing.Size(175, 43);
+            this.BatalButton.TabIndex = 20;
+            this.BatalButton.Text = "Batal";
+            this.BatalButton.UseVisualStyleBackColor = true;
+            this.BatalButton.Click += new System.EventHandler(this.BatalButton_Click);
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1086, 744);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            Controls.Add(button1);
-            Controls.Add(radioButton2);
-            Controls.Add(radioButton1);
-            Controls.Add(comboBox1);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Name = "Form2";
-            Text = "Form Pilihan Mata Kuliah";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1008, 637);
+            this.Controls.Add(this.BatalButton);
+            this.Controls.Add(this.SimpanButton);
+            this.Controls.Add(this.groupBox2MataKuliah);
+            this.Controls.Add(this.groupBox1Semester);
+            this.Controls.Add(this.PilihMataKuliah);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.KelastextBox5);
+            this.Controls.Add(this.TahuntextBox4);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.AlamattextBox3);
+            this.Controls.Add(this.NamatextBox2);
+            this.Controls.Add(this.NPMtextBox1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "Form2";
+            this.Text = "Form2";
+            this.groupBox1Semester.ResumeLayout(false);
+            this.groupBox1Semester.PerformLayout();
+            this.groupBox2MataKuliah.ResumeLayout(false);
+            this.groupBox2MataKuliah.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private ComboBox comboBox1;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private Button button1;
-        private GroupBox groupBox1;
-        private RadioButton radioButton4;
-        private RadioButton radioButton3;
-        private RadioButton radioButton5;
-        private GroupBox groupBox2;
-        private CheckBox checkBox5;
-        private CheckBox checkBox4;
-        private CheckBox checkBox3;
-        private CheckBox checkBox2;
-        private CheckBox checkBox1;
-        private CheckBox checkBox11;
-        private CheckBox checkBox10;
-        private CheckBox checkBox9;
-        private CheckBox checkBox8;
-        private CheckBox checkBox7;
-        private CheckBox checkBox6;
-        private CheckBox checkBox12;
-        private Button button2;
-        private Button button3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox NPMtextBox1;
+        private System.Windows.Forms.TextBox NamatextBox2;
+        private System.Windows.Forms.TextBox AlamattextBox3;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.TextBox TahuntextBox4;
+        private System.Windows.Forms.TextBox KelastextBox5;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button PilihMataKuliah;
+        private System.Windows.Forms.GroupBox groupBox1Semester;
+        private System.Windows.Forms.RadioButton Semester3RadioButton;
+        private System.Windows.Forms.RadioButton Semester2RadioButton;
+        private System.Windows.Forms.RadioButton Semester1RadioButton;
+        private System.Windows.Forms.GroupBox groupBox2MataKuliah;
+        private System.Windows.Forms.CheckBox LiterasiTeknologiCheckBox;
+        private System.Windows.Forms.CheckBox PemrogramanIICheckBox;
+        private System.Windows.Forms.CheckBox PemrogramanICheckBox;
+        private System.Windows.Forms.CheckBox AljabarLinierCheckBox;
+        private System.Windows.Forms.CheckBox MatematikaDiskritCheckBox;
+        private System.Windows.Forms.CheckBox PengantarLogistikCheckBox;
+        private System.Windows.Forms.CheckBox PendidikanPancasilaCheckBox;
+        private System.Windows.Forms.CheckBox AlgoritmaStrukturData2CheckBox;
+        private System.Windows.Forms.CheckBox AlgoritmaStrukturData1CheckBox;
+        private System.Windows.Forms.CheckBox LiterasiDataCheckBox;
+        private System.Windows.Forms.CheckBox BasisDataIICheckBox;
+        private System.Windows.Forms.CheckBox BasisDataICheckBox;
+        private System.Windows.Forms.Button SimpanButton;
+        private System.Windows.Forms.Button BatalButton;
     }
 }
